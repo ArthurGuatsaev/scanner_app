@@ -32,8 +32,10 @@ class _BoardActionBoxState extends State<BoardActionBox> {
     widget.controller.nextPage(
         duration: const Duration(milliseconds: 250), curve: Curves.linear);
     final InAppReview inAppReview = InAppReview.instance;
-    if (await inAppReview.isAvailable()) {
-      inAppReview.requestReview();
+    if (pageValue.value == 1) {
+      if (await inAppReview.isAvailable()) {
+        inAppReview.requestReview();
+      }
     }
   }
 
