@@ -16,7 +16,10 @@ class EmptyDocumentsBox extends StatelessWidget {
           Image.asset('assets/images/empty_documents.png'),
           Text(AppLocalizations.of(context)!.oopsNothing,
               textAlign: TextAlign.center,
-              style: Theme.of(context).textTheme.bodyMedium),
+              style: Theme.of(context)
+                  .textTheme
+                  .bodyMedium!
+                  .copyWith(fontSize: 17)),
         ],
       ),
     ));

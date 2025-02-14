@@ -11,9 +11,9 @@ class TitleRow extends StatelessWidget {
     return Center(
         child: Text(AppLocalizations.of(context)!.premiumDocument,
             textAlign: TextAlign.center,
-            style: Theme.of(context)
-                .textTheme
-                .bodyLarge!
-                .copyWith(color: Colors.white, fontWeight: FontWeight.w600)));
+            style: Theme.of(context).textTheme.bodyLarge!.copyWith(
+                color: Colors.white,
+                fontWeight: FontWeight.w700,
+                letterSpacing: 0)));
   }
 }

@@ -20,7 +20,7 @@ class IconRowItem extends StatelessWidget {
           style: Theme.of(context)
               .textTheme
               .bodySmall!
-              .copyWith(color: Colors.white))
+              .copyWith(color: Colors.white, fontWeight: FontWeight.w500))
     ]));
   }
 }

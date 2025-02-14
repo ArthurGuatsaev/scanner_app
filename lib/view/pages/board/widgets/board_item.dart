@@ -27,7 +27,7 @@ class BoardItem extends StatelessWidget {
                     style: Theme.of(context)
                         .textTheme
                         .bodyMedium!
-                        .copyWith(color: Colors.white)),
+                        .copyWith(color: Colors.white, fontSize: 21)),
               ],
             ),
             Positioned(

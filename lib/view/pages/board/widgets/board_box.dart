@@ -21,7 +21,7 @@ class BoardBox extends StatelessWidget {
                 subtitle: appLocal.signAnyDocument,
                 title: appLocal.effortlesslySign),
             BoardItem(
-                image: 'board_two',
+                image: 'board_second',
                 subtitle: appLocal.designAndStoreYour,
                 title: appLocal.createSaveSignatures),
           ],

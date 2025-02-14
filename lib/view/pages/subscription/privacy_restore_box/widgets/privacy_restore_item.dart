@@ -16,10 +16,8 @@ class PrivacyAndRestoreItem extends StatelessWidget {
       onPressed: func,
       child: Text(
         name,
-        style: Theme.of(context)
-            .textTheme
-            .bodySmall!
-            .copyWith(color: Colors.black.withOpacity(0.25)),
+        style: Theme.of(context).textTheme.bodySmall!.copyWith(
+            color: Colors.black.withOpacity(0.25), fontWeight: FontWeight.w400),
       ),
     ));
   }
