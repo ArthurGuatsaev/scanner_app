@@ -43,12 +43,17 @@ class MyAppRouter extends StatelessWidget {
       theme: ThemeData(
           scaffoldBackgroundColor: const Color(0xffF2F4FF),
           textTheme: const TextTheme(
-            bodyMedium:
-                TextStyle(fontSize: 18, height: 1, fontWeight: FontWeight.w600),
+            bodyMedium: TextStyle(
+                fontFamily: 'Monserat',
+                fontSize: 18,
+                height: 1,
+                fontWeight: FontWeight.w500),
             bodySmall: TextStyle(
+              fontFamily: 'Monserat',
               fontSize: 14,
             ),
             bodyLarge: TextStyle(
+              fontFamily: 'Monserat',
               fontSize: 32,
               height: 1.2,
             ),
