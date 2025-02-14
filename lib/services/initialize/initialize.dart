@@ -11,7 +11,6 @@ import 'package:test_work/services/scanner/domain/repository/base_scanner_reposi
 import 'package:test_work/services/subscription/data/bloc/sub_bloc.dart';
 import 'package:test_work/services/subscription/data/repository/release/revenue_cat_repository.dart';
 import 'package:test_work/services/subscription/domain/repository/base_subscription_repository.dart';
-import 'package:test_work/text_style.dart';
 import 'package:test_work/view/pages/loading/loading_page.dart';
 import '../preferenc/database_repository.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
